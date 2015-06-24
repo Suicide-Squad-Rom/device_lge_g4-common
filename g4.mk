@@ -258,3 +258,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
      libcnefeatureconfig \
      libxml2
+    
+# device handler
+PRODUCT_PACKAGES += \ DeviceHandler
