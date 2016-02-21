@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 candyroms Project
+<!-- Copyright (C) 2014 SlimRoms Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,26 +13,28 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">DeviceHandler</string>
+    <!-- General strings -->
+    <string name="dlg_ok">OK</string>
+    <string name="cancel">Cancel</string>
     <string name="reset">Reset</string>
     <string name="reset_message">Reset all entries to default?</string>
-    <string name="cancel">Cancel</string>
-    <string name="dlg_ok">OK</string>
 
     <string name="screen_off_gesture_title">Screen off gestures</string>
     <string name="group_applications">Applications</string>
     <string name="select_custom_app_title">Select custom application</string>
 
+
     <string name="enable_gestures_title">Enable gestures</string>
     <string name="enable_gestures_summary">Enable screen off gestures</string>
     <string name="gestures_title">Gestures</string>
-    <string name="swipe_down_title">Swipe down</string>
-    <string name="swipe_left_title">Swipe left</string>
-    <string name="swipe_right_title">Swipe right</string>
-    <string name="swipe_up_title">Swipe up</string>
-    <string name="double_tap_title">Double tap</string>
-    <string name="camera_title">Longpress volume in landscape</string>
+    <string name="gesture_arrow_down_title">Arrow down</string>
+    <string name="gesture_arrow_left_title">Arrow left</string>
+    <string name="gesture_arrow_right_title">Arrow right</string>
+    <string name="gesture_arrow_up_title">Arrow up</string>
+    <string name="gesture_circle_title">Circle</string>
+    <string name="gesture_double_swipe_title">Double finger swipe down</string>
+    <string name="gesture_double_tap_title">Double tap</string>
 
 </resources>

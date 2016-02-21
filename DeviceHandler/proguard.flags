@@ -1,1 +1,5 @@
--keep class com.candy.device.**
+-keep public class com.candy.device.KeyHandler
+
+-keepclassmembers public class com.candy.device.KeyHandler {
+    *;
+}

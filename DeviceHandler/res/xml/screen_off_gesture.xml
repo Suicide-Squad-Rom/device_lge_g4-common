@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 candyroms Project
+<!-- Copyright (C) 2014 Slimroms Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,38 +28,44 @@
             android:title="@string/gestures_title" >
 
             <Preference
-                android:key="gesture_swipe_down"
-                android:title="@string/swipe_down_title"
+                android:key="gesture_arrow_down"
+                android:title="@string/gesture_arrow_down_title"
                 android:persistent="false"
                 android:dependency="enable_gestures" />
 
             <Preference
-                android:key="gesture_swipe_left"
-                android:title="@string/swipe_left_title"
+                android:key="gesture_arrow_left"
+                android:title="@string/gesture_arrow_left_title"
                 android:persistent="false"
                 android:dependency="enable_gestures" />
 
             <Preference
-                android:key="gesture_swipe_right"
-                android:title="@string/swipe_right_title"
+                android:key="gesture_arrow_right"
+                android:title="@string/gesture_arrow_right_title"
                 android:persistent="false"
                 android:dependency="enable_gestures" />
 
             <Preference
-                android:key="gesture_swipe_up"
-                android:title="@string/swipe_up_title"
+                android:key="gesture_arrow_up"
+                android:title="@string/gesture_arrow_up_title"
+                android:persistent="false"
+                android:dependency="enable_gestures" />
+
+            <Preference
+                android:key="gesture_circle"
+                android:title="@string/gesture_circle_title"
+                android:persistent="false"
+                android:dependency="enable_gestures" />
+
+            <Preference
+                android:key="gesture_double_swipe"
+                android:title="@string/gesture_double_swipe_title"
                 android:persistent="false"
                 android:dependency="enable_gestures" />
 
             <Preference
                 android:key="gesture_double_tap"
-                android:title="@string/double_tap_title"
-                android:persistent="false"
-                android:dependency="enable_gestures" />
-
-           <Preference
-                android:key="gesture_camera"
-                android:title="@string/camera_title"
+                android:title="@string/gesture_double_tap_title"
                 android:persistent="false"
                 android:dependency="enable_gestures" />
 
