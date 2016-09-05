@@ -117,10 +117,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
