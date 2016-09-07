@@ -161,8 +161,8 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 TARGET_PROVIDES_KEYMASTER := true
 
 # SELinux
-# include device/qcom/sepolicy/sepolicy.mk
-# BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
+include device/qcom/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
 # Disable HW based full disk encryption
 TARGET_HW_DISK_ENCRYPTION := false
